@@ -1,0 +1,48 @@
+{
+    "atomtypes": {
+        "CM": {
+            "MW": 42.07914,
+            "at_num": 24,
+            "eps": 377.14,
+            "l_a": 6.0,
+            "l_r": 16.433,
+            "sig": 0.4184
+        },
+        "CT": {
+            "MW": 43.08698,
+            "at_num": 25,
+            "eps": 358.37,
+            "l_a": 6.0,
+            "l_r": 15.947,
+            "sig": 0.45012
+        },
+        "Wift25": {
+            "MW": 18.015028,
+            "at_num": 10,
+            "eps": 305.21,
+            "l_a": 6.0,
+            "l_r": 8.0,
+            "sig": 0.29016
+        }
+    },
+    "crossints": {
+        "CT:CM": {
+            "eps_mix": 345.72,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "CT:Wift25": {
+            "eps_mix": false,
+            "k": 0.31,
+            "sig_mix": false,
+            "wca": false
+        },
+        "Wift25:CM": {
+            "eps_mix": false,
+            "k": 0.34,
+            "sig_mix": false,
+            "wca": false
+        }
+    }
+}
