@@ -34,13 +34,13 @@
         },
         "CM:Wift25": {
             "eps_mix": false,
-            "k": 0.25,
+            "k": 0.4,
             "sig_mix": false,
             "wca": false
         },
-        "Wift25:CT": {
+        "CT:Wift25": {
             "eps_mix": false,
-            "k": 0.25,
+            "k": 0.4,
             "sig_mix": false,
             "wca": false
         }
