@@ -26,21 +26,21 @@
         }
     },
     "crossints": {
-        "CT:CM": {
+        "CM:CT": {
             "eps_mix": 345.72,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
-        "CT:Wift25": {
+        "CM:Wift25": {
             "eps_mix": false,
-            "k": 0.31,
+            "k": 0.25,
             "sig_mix": false,
             "wca": false
         },
-        "Wift25:CM": {
+        "Wift25:CT": {
             "eps_mix": false,
-            "k": 0.34,
+            "k": 0.25,
             "sig_mix": false,
             "wca": false
         }
