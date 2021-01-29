@@ -16,31 +16,51 @@
             "l_r": 15.947,
             "sig": 0.45012
         },
-        "Wift25": {
-            "MW": 18.015028,
+        "W": {
+            "MW": 18.01528,
             "at_num": 10,
-            "eps": 305.21,
+            "eps": 306.8666022465,
             "l_a": 6.0,
             "l_r": 8.0,
-            "sig": 0.29016
+            "sig": 0.2898639820729577
+        },
+        "W2": {
+            "MW": 36.03056,
+            "at_num": 20,
+            "eps": 400.0,
+            "l_a": 6.0,
+            "l_r": 8.0,
+            "sig": 0.37467
         }
     },
     "crossints": {
-        "CT:CM": {
+        "CM:CT": {
             "eps_mix": 345.72,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
-        "CT:Wift25": {
+        "CM:W": {
             "eps_mix": false,
-            "k": 0.31,
+            "k": 0.34,
             "sig_mix": false,
             "wca": false
         },
-        "Wift25:CM": {
+        "W2:CM": {
             "eps_mix": false,
-            "k": 0.34,
+            "k": 0.33,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W2:CT": {
+            "eps_mix": false,
+            "k": 0.32,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W:CT": {
+            "eps_mix": false,
+            "k": 0.31,
             "sig_mix": false,
             "wca": false
         }
